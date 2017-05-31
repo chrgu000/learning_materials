@@ -1,0 +1,25 @@
+纷享逍客 企业账号：fjtk888 个人账号：18928734331  密码：
+foxmail  账号：qilin.wang@fgecctv.com  密码：Fgfgfg123
+项目管理系统：http://192.168.1.198/zentao/myd/ 账号：wangqilin 密码：123456
+提取文件   wangqilin   7c8d5074
+智慧平台管理系统  admin  123456  
+
+http://fge.cloudring.net:8888/cloudring-property-developer-web  测试环境网址
+
+ www.cloudring.net 正式环境网址
+
+http://fge.cloudring.net:8888/cloudring-typecol-web/typecol/index 协议管理文档
+
+http://120.24.209.167:18083/#/clients   websocket服务区(内网才能进)
+
+http://192.168.1.226:3000/   企业git(内网才能进)  账号 qilin.wang@fgecctv.com 密码 123456
+
+http://192.168.1.236:8080/login?from=%2F  前端微信自动构建  账号 h5 密码 fgecctv
+
+http://120.77.156.61:9001/?message=All%20restarted%20at%20Thu%20May%2025%2017%3A29%3A48%202017  微信服务器自动重启 账户 user 密码 123
+
+svn 	账号： wangqilin
+	密码：7c8d5074
+
+加班系统  http://192.168.1.89:8080/test/   汪麒麟  654321
+

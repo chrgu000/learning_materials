@@ -1,0 +1,10 @@
+ ①application/x-www-form-urlencoded(默认值)----静态数据
+ ②multipart/form-data---文件(图片，文件等等...)
+
+其实form表单在你不写enctype属性时，也默认为其添加了enctype属性值，默认值是enctype="application/x- www-form-urlencoded".
+
+通过form表单提交文件操作如下：
+<form method="post" action="http://w.sohu.com/t2/upload.do" enctype=”multipart/form-data”>
+         <inputtype="text" name="desc">
+         <inputtype="file" name="pic">
+ </form>

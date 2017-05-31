@@ -1,0 +1,34 @@
+ 
+ var contextPath = "/cloudring-user-center-web";
+function sumbit() {   	
+	var $from=$("#from");
+	var username=$("#username").val();
+	var password=$("#pwd").val();
+	if(null==username || "" == username){		
+		layerAlter("提示","用户名不能为空");
+		return false;
+	}
+	if(null==password || "" == password){
+		layerAlter("提示","密码不能为空");		
+		return false;
+	}
+	$from.submit();
+	
+}
+
+
+$(function(){
+	var error = '';		
+	if ("" !== error){
+		layerAlter("提示",error);	
+	}
+	
+});
+
+function keyLogin(event){
+	var e = event ? event : (window.event ? window.event : null);
+    if (e.keyCode == 13){
+        sumbit();
+    }
+}
+

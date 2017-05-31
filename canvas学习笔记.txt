@@ -1,0 +1,37 @@
+<canvas id="canvas" height="500" width="500" style="background: #000;"></canvas>
+宽高直接在元素上面设置为好。
+var canvas = document.getElementById('canvas'), //获取canvas元素
+ window.requestAnimationFrame(drawFrame, canvas);
+deg=2*Math.PI/100;//将圆的360度分成100分，每一分都是一个deg;
+ctx.arc(Xcenter,Ycenter,300,-Math.PI/2,-Math.PI/2+n*deg);//循环改变n的值即可改变弧度
+context = canvas.getContext('2d'); //获取画图环境，指明为2d
+	方法：
+		getContext("2d");// 指定为2d图形
+		context.save（);// 方法保存当前图像状态的一份拷贝。
+		/*
+		*save();   // 方法把当前状态的一份拷贝压入到一个保存图像状态的栈中。
+			   // 这就允许您临时地改变图像状态，然后，通过调用
+		restore(); // 来恢复以前的值。一个画布的图形状态包
+		*/
+		
+		context.beginPath（）;// 路径开始。
+		context.moveTo(x, y); // 创建开始点.
+		context.lineTo(x, y); // 创建水平线.
+		context.arcTo(x1,y1,x2,y2);//创建弧。
+		context.arc(x,y,r,起始点，结束点，false/true);//创建圆。 false==顺时针，true==逆时针。
+		context.strokeText（"要输入的文字",x轴坐标，y轴坐标）;// 绘制字体，并且指定位置。
+		contxt.stroke();//开始绘制。
+		contxt.closePath();//路径结束。
+		context.restore（）;// 方法将绘图状态置为保存值。.
+		context.clearRect（x,y,width,height）;//在给定的矩形内清除指定的像素
+		
+	属性：
+		context.strokeStyle="value";// 设置笔画颜色
+		context.font="value";// 属性设置或返回画布上文本内容的当前字体属性。用法和css一样。
+		contxt.lineWidth = value;//线宽。
+		context.textAlign = 'center';//文字水平居中
+		context.textBaseline = 'center';//文字垂直居中
+			
+
+
+	

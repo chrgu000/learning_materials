@@ -1,0 +1,129 @@
+//event.ctrlKey--表示ctrl键被按下
+				
+//自定义ajax方法
+				ajax({
+					url: "regio.json", //请求地址
+					type: "get", //请求方式
+					data: {
+						name: "jack",
+						email: "123@qq.com"
+					},
+					dataType: "json",
+					success: function(response, xml) {
+						// 此处放成功后执行的代码
+						regio = JSON.parse(response);
+						proFun(regio);
+					},
+					fail: function(status) {
+						// 此处放失败后执行的代码
+						console.log('请求json时出错！');
+					}
+				});
+
+
+				function ajax(obj) {
+					obj = obj || {};
+						obj.type = (obj.type || "GET").toUpperCase();
+						obj.dataType = obj.dataType || "json";
+						var params = formatParams(obj.data);
+
+					if(window.XMLHttpRequest) {
+						var xhr = new XMLHttpRequest;
+					} else {
+						var xhr = new ActiveXObject("Micosoft.XMLHTTP");
+					}
+
+					xhr.onreadystatechange = function() {
+						if(xhr.readyState == 4) {
+							if(xhr.status >= 200 && xhr.status < 300) {
+								obj.success && obj.success(xhr.responseText);
+							} else {
+								obj.fail && obj.fail(xhr.status);
+							}
+						}
+					}
+
+					if(obj.type == 'GET') {
+						xhr.open('GET', obj.url + "?" + params, true);
+						xhr.send(null);
+					} else {
+						xhr.open('POST', obj.url, true);
+						xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+						xhr.send(params);
+					}
+				}
+
+
+//encodeURIComponent()--将字符编码
+//decodeURIComponent()--将编码过得字符解码
+
+			//此函数的作用是格式发送的data数据
+			function formatParams(data) {
+				var arr = [];
+				for(var name in data) {
+					arr.push(encodeURIComponent(name) + '=' + encodeURIComponent(data[name]));
+				}
+				arr.push(("v=" + Math.random()).replace('.', ''));
+				return arr;
+			}
+
+				//获取页面url中的属性值
+				function GetQueryString(name) {
+					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+					var r = window.location.search.substr(1).match(reg);
+					if(r != null) return(r[2]);
+					return null;
+				}
+
+
+//js起到特殊符号
+
+function html_encode(str)
+    {
+      var s = "";
+      if (str.length == 0) return "";
+      s = str.replace(/&/g, "&gt;");
+      s = s.replace(/</g, "&lt;");
+      s = s.replace(/>/g, "&gt;");
+      s = s.replace(/ /g, "&nbsp;");
+      s = s.replace(/\'/g, "&#39;");
+      s = s.replace(/\"/g, "&quot;");
+      s = s.replace(/\n/g, "<br>");
+      return s;
+    }
+
+
+//网页全屏与退出全屏
+		function requestFullScreen(element) {
+			// 判断各种浏览器，找到正确的方法
+			var requestMethod = element.requestFullScreen || //W3C
+				element.webkitRequestFullScreen || //Chrome等
+				element.mozRequestFullScreen || //FireFox
+				element.msRequestFullScreen; //IE11
+			if(requestMethod) {
+				requestMethod.call(element);
+			} else if(typeof window.ActiveXObject !== "undefined") { //for Internet Explorer
+				var wscript = new ActiveXObject("WScript.Shell");
+				if(wscript !== null) {
+					wscript.SendKeys("{F11}");
+				}
+			}
+		}
+		
+		//退出全屏 判断浏览器种类
+		function exitFull() {
+			// 判断各种浏览器，找到正确的方法
+			var exitMethod = document.exitFullscreen || //W3C
+				document.mozCancelFullScreen || //Chrome等
+				document.webkitExitFullscreen || //FireFox
+				document.webkitExitFullscreen; //IE11
+			if(exitMethod) {
+				exitMethod.call(document);
+			} else if(typeof window.ActiveXObject !== "undefined") { //for Internet Explorer
+				var wscript = new ActiveXObject("WScript.Shell");
+				if(wscript !== null) {
+					wscript.SendKeys("{F11}");
+				}
+			}
+		}
+	
