@@ -1,25 +1,27 @@
-·×ÏíåĞ¿Í ÆóÒµÕËºÅ£ºfjtk888 ¸öÈËÕËºÅ£º18928734331  ÃÜÂë£º
-foxmail  ÕËºÅ£ºqilin.wang@fgecctv.com  ÃÜÂë£ºFgfgfg123
-ÏîÄ¿¹ÜÀíÏµÍ³£ºhttp://192.168.1.198/zentao/myd/ ÕËºÅ£ºwangqilin ÃÜÂë£º123456
-ÌáÈ¡ÎÄ¼ş   wangqilin   7c8d5074
-ÖÇ»ÛÆ½Ì¨¹ÜÀíÏµÍ³  admin  123456  
+çº·äº«é€å®¢ ä¼ä¸šè´¦å·ï¼šfjtk888 ä¸ªäººè´¦å·ï¼š18928734331  å¯†ç ï¼š
+foxmail  è´¦å·ï¼šqilin.wang@fgecctv.com  å¯†ç ï¼šFgfgfg123
+é¡¹ç›®ç®¡ç†ç³»ç»Ÿï¼šhttp://192.168.1.198/zentao/myd/ è´¦å·ï¼šwangqilin å¯†ç ï¼š123456
+æå–æ–‡ä»¶   wangqilin   7c8d5074
+æ™ºæ…§å¹³å°ç®¡ç†ç³»ç»Ÿ  admin  123456  
 
-http://fge.cloudring.net:8888/cloudring-property-developer-web  ²âÊÔ»·¾³ÍøÖ·
+http://fge.cloudring.net:8888/cloudring-property-developer-web  æµ‹è¯•ç¯å¢ƒç½‘å€
 
- www.cloudring.net ÕıÊ½»·¾³ÍøÖ·
+ www.cloudring.net æ­£å¼ç¯å¢ƒç½‘å€
 
-http://fge.cloudring.net:8888/cloudring-typecol-web/typecol/index Ğ­Òé¹ÜÀíÎÄµµ
+http://fge.cloudring.net:8888/cloudring-typecol-web/typecol/index åè®®ç®¡ç†æ–‡æ¡£
 
-http://120.24.209.167:18083/#/clients   websocket·şÎñÇø(ÄÚÍø²ÅÄÜ½ø)
+http://120.24.209.167:18083/#/clients   websocketæœåŠ¡åŒº(å†…ç½‘æ‰èƒ½è¿›)
 
-http://192.168.1.226:3000/   ÆóÒµgit(ÄÚÍø²ÅÄÜ½ø)  ÕËºÅ qilin.wang@fgecctv.com ÃÜÂë 123456
+http://fge.cloudring.net:8088/search/index Â åœ¨çº¿æŸ¥è¯¢ç”¨æˆ·è®¾å¤‡ä¿¡æ¯ç½‘å€
 
-http://192.168.1.236:8080/login?from=%2F  Ç°¶ËÎ¢ĞÅ×Ô¶¯¹¹½¨  ÕËºÅ h5 ÃÜÂë fgecctv
+http://192.168.1.226:3000/   ä¼ä¸šgit(å†…ç½‘æ‰èƒ½è¿›)  è´¦å· qilin.wang@fgecctv.com å¯†ç  123456
 
-http://120.77.156.61:9001/?message=All%20restarted%20at%20Thu%20May%2025%2017%3A29%3A48%202017  Î¢ĞÅ·şÎñÆ÷×Ô¶¯ÖØÆô ÕË»§ user ÃÜÂë 123
+http://192.168.1.236:8080/login?from=%2F  å‰ç«¯å¾®ä¿¡è‡ªåŠ¨æ„å»º  è´¦å· h5 å¯†ç  fgecctv
 
-svn 	ÕËºÅ£º wangqilin
-	ÃÜÂë£º7c8d5074
+http://120.77.156.61:9001/?message=All%20restarted%20at%20Thu%20May%2025%2017%3A29%3A48%202017  å¾®ä¿¡æœåŠ¡å™¨è‡ªåŠ¨é‡å¯ è´¦æˆ· user å¯†ç  123
 
-¼Ó°àÏµÍ³  http://192.168.1.89:8080/test/   Íô÷è÷ë  654321
+svn 	è´¦å·ï¼š wangqilin
+	å¯†ç ï¼š7c8d5074
+
+åŠ ç­ç³»ç»Ÿ  http://192.168.1.89:8080/test/   æ±ªéº’éºŸ  654321
 
