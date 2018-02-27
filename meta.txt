@@ -1,7 +1,47 @@
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" /> 
- 
-<meta content="yes" name="apple-mobile-web-app-capable" /> 
- 
-<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
- 
-<meta content="telephone=no�� name=��format-detection" /> 
+<!--百度认证meta-->
+<meta name="baidu-site-verification" content="fSe63OgmrU" />
+
+<!--SEO-->
+<meta name="AizhanSEO" content="4442b2d3e2f5d49f1dddc2bc9507f215">
+
+<!--网页的关键字-->
+<meta name="keywords" content="" />
+
+<!--网页的描述信息-->
+<meta name="description" content="" />
+
+<!--允许所有请求-->
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+<!--网页编码方式-->
+<meta charset="utf-8">
+
+<!--针对国内双核浏览器 使用极速模式-->
+<meta name="renderer" content="webkit">
+
+<!--告诉IE浏览器 使用最新的IE进行渲染-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--设置这个之后通过手机百度搜索打开网页时,百度会为你的网页进行转码-->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+<!--显示苹果工具栏和菜单栏-->
+<meta content="yes" name="apple-mobile-web-app-capable">
+
+<!-添加到主屏幕后，全屏显示。-->
+<meta content="yes" name="apple-touch-fullscreen">
+
+<!-不识别数字为电话号码-->
+<meta content="telephone=no" name="format-detection">
+
+<!-作用是控制状态栏显示样式-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+
+<!-告诉搜索引擎你的站点的制作的作者；-->
+<meta name="author" content="ZB.COM">
+
+<!-表示版权-->
+<meta name="copyright"  content="Copyright &copy;ZB.COM 版权所有">
+
+<!-您可以告诉蜘蛛回到您的网站并重新编制索引。这个元标记被几个北美搜索引擎使用。-->
+<meta name="revisit-after"  content="1 days">
